@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "https://shouh.me/gemma-asl/static/css/main.b34c6823.css",
-    "main.js": "https://shouh.me/gemma-asl/static/js/main.abcd4b76.js",
-    "static/js/206.e1cc138e.chunk.js": "https://shouh.me/gemma-asl/static/js/206.e1cc138e.chunk.js",
-    "index.html": "https://shouh.me/gemma-asl/index.html"
+    "main.css": "/gemma-asl/static/css/main.b34c6823.css",
+    "main.js": "/gemma-asl/static/js/main.bb4a708b.js",
+    "static/js/206.e1cc138e.chunk.js": "/gemma-asl/static/js/206.e1cc138e.chunk.js",
+    "index.html": "/gemma-asl/index.html"
   },
   "entrypoints": [
     "static/css/main.b34c6823.css",
-    "static/js/main.abcd4b76.js"
+    "static/js/main.bb4a708b.js"
   ]
 }
