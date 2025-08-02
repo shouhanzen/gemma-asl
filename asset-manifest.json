@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "https://shouhanzen.github.io/gemma-asl/static/css/main.b34c6823.css",
+    "main.js": "https://shouhanzen.github.io/gemma-asl/static/js/main.6b4b59dd.js",
+    "static/js/206.e1cc138e.chunk.js": "https://shouhanzen.github.io/gemma-asl/static/js/206.e1cc138e.chunk.js",
+    "index.html": "https://shouhanzen.github.io/gemma-asl/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b34c6823.css",
+    "static/js/main.6b4b59dd.js"
+  ]
+}
