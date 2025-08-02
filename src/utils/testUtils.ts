@@ -6,7 +6,7 @@ export const mockGetUserMedia = (shouldSucceed = true) => {
   };
 
   if (shouldSucceed) {
-    return Promise.resolve(mockStream as MediaStream);
+    return Promise.resolve(mockStream as unknown as MediaStream);
   } else {
     return Promise.reject(new Error('Camera access denied'));
   }

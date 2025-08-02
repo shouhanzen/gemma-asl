@@ -1,11 +1,5 @@
 import React from 'react';
-
-interface CameraViewProps {
-  videoRef: React.RefObject<HTMLVideoElement>;
-  isStreaming: boolean;
-  error: string | null;
-  onStartCamera: () => void;
-}
+import { CameraViewProps } from '../types';
 
 export const CameraView: React.FC<CameraViewProps> = ({
   videoRef,

@@ -6,7 +6,7 @@ export interface ApiKeyHook {
 }
 
 export interface CameraHook {
-  videoRef: React.RefObject<HTMLVideoElement>;
+  videoRef: React.RefObject<HTMLVideoElement | null>;
   isStreaming: boolean;
   startCamera: () => Promise<void>;
   stopCamera: () => void;
@@ -40,7 +40,7 @@ export interface ApiKeyModalProps {
 }
 
 export interface CameraViewProps {
-  videoRef: React.RefObject<HTMLVideoElement>;
+  videoRef: React.RefObject<HTMLVideoElement | null>;
   isStreaming: boolean;
   error: string | null;
   onStartCamera: () => void;

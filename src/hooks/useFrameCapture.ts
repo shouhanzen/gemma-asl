@@ -6,7 +6,7 @@ const FRAME_CAPTURE_INTERVAL = 333; // ~3fps (1000ms / 3)
 const MAX_RECORDING_TIME = 30000; // 30 seconds
 const TARGET_FRAME_SIZE = 256;
 
-export const useFrameCapture = (videoRef: React.RefObject<HTMLVideoElement>): FrameCaptureHook => {
+export const useFrameCapture = (videoRef: React.RefObject<HTMLVideoElement | null>): FrameCaptureHook => {
   const [frames, setFrames] = useState<string[]>([]);
   const [isRecording, setIsRecording] = useState(false);
   const [recordingTime, setRecordingTime] = useState(0);
